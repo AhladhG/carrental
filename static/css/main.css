@@ -1,0 +1,25 @@
+
+body{
+    background-image:url('../images/carbg.jpeg');
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+}
+.bg-layer{
+    position:fixed;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    background:rgba(0,0,0,.7);
+    display:block;
+}
+footer{
+
+	margin-top: 20px;
+	padding-top: 20px;
+}
+
+.custom-container{
+    width:90%;
+    margin:0px auto;
+}

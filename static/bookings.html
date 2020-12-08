@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Car rentals</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"
+          id="bootstrap-css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="css/main.css" rel="stylesheet" media="all">
+</head>
+<body>
+<div class="bg-layer"></div>
+<header>
+    <div class="container p-5 ">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">ABC Car Rentals</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link" href="index.html">Home</a>
+                    <a class="nav-item nav-link" href="customers.html">Customers</a>
+                    <a class="nav-item nav-link" href="cars.html">Cars</a>
+                    <a class="nav-item nav-link active" href="bookings.html">Bookings <span
+                            class="sr-only">(current)</span></a>
+
+                </div>
+            </div>
+        </nav>
+    </div>
+</header>
+
+<main>
+
+    <div class="container my-5">
+        <div class="card">
+
+            <div class="card-body text-center">
+                <h4 class="card-title">All your bookings</h4>
+
+
+                <table class="table table-hover">
+                    <thead>
+                    <tr>
+                        <th scope="col">ID</th>
+                        <th scope="col">Customer Name</th>
+                        <th scope="col">Date of booking</th>
+                        <th scope="col">Car Number</th>
+                        <th scope="col">Phone Number</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>12-12-2020</td>
+                        <td>AP31AU8736</td>
+                        <td>7757756555</td>
+                        <td><a class="btn btn-sm btn-info" href="#"><i class="fas fa-info-circle"></i> Details</a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Mark</td>
+                        <td>12-12-2020</td>
+                        <td>AP31AU8736</td>
+                        <td>7757756555</td>
+                        <td><a class="btn btn-sm btn-info" href="#"><i class="fas fa-info-circle"></i> Details</a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Mark</td>
+                        <td>12-12-2020</td>
+                        <td>AP31AU8736</td>
+                        <td>7757756555</td>
+                        <td><a class="btn btn-sm btn-info" href="#"><i class="fas fa-info-circle"></i> Details</a></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+
+        <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+             aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="card-body text-center">
+                        <h4 class="card-title">Add new car</h4>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                    <div class=" card col-8 offset-2 my-2 p-3">
+                        <form>
+                            <div class="form-group">
+                                <label for="listname">List name</label>
+                                <input type="text" class="form-control" name="listname" id="listname"
+                                       placeholder="Enter your listname">
+                            </div>
+                            <div class="form-group">
+                                <label for="datepicker">Deadline</label>
+                                <input type="text" class="form-control" name="datepicker" id="datepicker"
+                                       placeholder="Pick up a date">
+                            </div>
+                            <div class="form-group">
+                                <label for="datepicker">Add a list item</label>
+                                <div class="input-group">
+
+                                    <input type="text" class="form-control" placeholder="Add an item"
+                                           aria-label="Search for...">
+                                    <span class="input-group-btn">
+                    <button class="btn btn-secondary" type="button">Go!</button>
+                  </span>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+
+<footer>
+    <div class="container  p-5">
+
+    </div>
+</footer>
+</body>
+</html>
